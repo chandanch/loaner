@@ -1,0 +1,9 @@
+.header {
+    border: 2px dashed #c52222;
+    height: 60px;
+    background: #85cddf;
+    /* margin: 2px;  */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
