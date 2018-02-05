@@ -1,9 +1,28 @@
 .header {
-    border: 2px dashed #c52222;
+    border: 3px dashed #c52222;
     height: 60px;
-    background: #85cddf;
+    background: #E1F5FE;
     /* margin: 2px;  */
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.decision {
+    position: relative;
+    left: 40%;
+    width: 25%;
+    text-align: center;
+    border-radius: 0;
+}
+
+.header-text {
+    position: relative;
+    top: 15px;
+}
+
+.form-input {
+    background: #E1F5FE;
+    border: 1px solid #000;
+    border-radius: 0
 }
