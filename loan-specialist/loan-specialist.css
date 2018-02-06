@@ -59,3 +59,8 @@
     background: #6a7d8f;
     color: #fff;
 }
+
+.btn-icon {
+    font-size: 22px;
+    vertical-align: middle;
+}
