@@ -2,10 +2,12 @@
     margin-top: 10px;
 }
 
+/* style the nav links overides bootstraps default styles*/
 .grid-link {
     text-decoration: underline;
     color: #2a8deb;
 }
+/* make the header full width */
 .header {
     width: 100%;
     background: #a7caeb;
@@ -17,17 +19,20 @@
     margin-top: 1%;
 }
 
+/* style form input */
 .form-input {
     border: 1px solid #c03636; 
     border-radius: 0;
     text-align: center;
 }
 
+/* material style buttons with sharp edges */
 .loan-btn {
     border-radius: 0;
     width: 80%;
 }
 
+/* set width and height for side panel */
 .side-container {
     height: 40%;
     width: 100%;
@@ -44,6 +49,7 @@
     font-weight: bold;
 }
 
+/* Side panel button style */
 .side-btn {
     border-radius: 0;
     position: relative;
@@ -55,11 +61,13 @@
     margin-top: 1%;
 }
 
+/* background to table header */
 .thead {
     background: #6a7d8f;
     color: #fff;
 }
 
+/* style buttons to align with button text */
 .btn-icon {
     font-size: 22px;
     vertical-align: middle;
