@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="loan-create.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid content-container">
+        <div class="row">
+            <div class="col col-sm-3">
+                <button type="button" class="btn btn-danger specialist-btn">Loan Specialist
+                    <br>Comment</button>
+            </div>
+            <div class="col col-sm-6 ">
+                <form>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected disabled>Employment Status*</option>
+                            <option value="1">Employed</option>
+                            <option value="2">Self-Employed</option>
+                            <option value="3">Unemployed</option>
+                            <option value="3">Student</option>
+                            <option value="3">Home Maker</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Employer Name*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Job Title*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Year Employed*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Add Additional Employer (if applicable)">
+                    </div>
+                    <div class="form-group disclousre-container">
+                        <h6>
+                            What is your household monthly income? And keep in mind you do not need to include alimony, child support or seperate maintenance
+                            income.
+                        </h6>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col col-sm-9">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="$ Individual Income*">
+                            </div>
+                        </div>
+                        <div class="col col-sm-3">
+                            <div class="form-group info-field">
+                                <select class="custom-select">
+                                    <option selected disabled>Frequency</option>
+                                    <option value="1">Weekly</option>
+                                    <option value="2">Monthly</option>
+                                    <option value="3">Sub-weekly</option>
+                                    <option value="3">Annual</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Total Annual Individual Income (Calculated)">
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col col-sm-9">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="$ Household Income*">
+                            </div>
+                        </div>
+                        <div class="col col-sm-3">
+                            <div class="form-group info-field">
+                                <select class="custom-select">
+                                    <option selected disabled>Frequency</option>
+                                    <option value="1">Weekly</option>
+                                    <option value="2">Monthly</option>
+                                    <option value="3">Sub-weekly</option>
+                                    <option value="3">Annual</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Total Annual Hosuehold Income (Calculated)">
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected disabled>Home Ownership*</option>
+                            <option value="1">Own</option>
+                            <option value="2">Mortgaged</option>
+                            <option value="3">Wife</option>
+                            <option value="3">Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Total Monthly Expenses*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="ww" aria-describedby="emailHelp" placeholder="Date of Birth(DD/MM/YYY)*">
+                    </div>
+                    <div class="form-group disclousre-container">
+                            <h6>
+                                As part of your loan application you understand that you are authorizing purepoint / Union Bank to
+                                obtain customer reports and related information about from your end regarding agencies
+                                (insert other language as needed)
+                            </h6>
+                            <div class="row">
+                                <div class="col col-2"></div>
+                                <div class="col col-5">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input check-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Agree & Acknowledge</label>
+                                    </div>
+                                </div>
+                                <div class="col col-3">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Decline</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-danger decision">Decision</button>
+                </form>
+            </div>
+            <div class="col col-sm-3">
+                <button type="button" class="btn btn-danger end-call-btn">End Phone call</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

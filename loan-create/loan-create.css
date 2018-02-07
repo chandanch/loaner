@@ -1,0 +1,64 @@
+.content-container {
+    margin-top: 1%;
+}
+
+.no-gutters {
+    margin-right: 2px;
+    margin-left: 0;
+
+}
+
+.info-field {
+    margin-left: 3px;
+}
+
+.form-group input, .form-group select {
+    border-radius: 0;
+    border: 1px solid #000000;
+}
+
+.disclousre-container {
+    border: 2px dashed #cc2323;
+    padding-left: 3px;
+    background: #cce3f8;
+}
+
+.disclousre-container div {
+    margin: 3px;
+}
+
+.disclousre-container h6 {
+    margin-left: 13px;
+    margin-top: 3px;
+}
+
+.custom-control-label:before{
+    background-color: #ffffff;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color: #10d62b;
+}
+
+.specialist-btn, .end-call-btn {
+    border-radius: 0;
+}
+
+.specialist-btn {
+    position: fixed;
+    top: 18%;
+    left: 5%;
+}
+
+.end-call-btn {
+    position: relative;
+    top: 64%;
+}
+
+.decision {
+    position: relative;
+    left: 35%;
+    width: 30%;
+    text-align: center;
+    border-radius: 0;
+}
