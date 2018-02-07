@@ -72,3 +72,7 @@
     font-size: 22px;
     vertical-align: middle;
 }
+
+.custom-control-label {
+    background: #c03636 !important;
+}
